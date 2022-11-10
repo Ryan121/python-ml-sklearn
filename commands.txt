@@ -1,0 +1,4 @@
+# I-python kernal setup
+# This approach works on the assumption of one global jupyter install with multiple indivual kernals
+python -m pip install ipykernel
+python -m ipykernel install --user --name=my-virtualenv-name
